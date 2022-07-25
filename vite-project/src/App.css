@@ -1,0 +1,38 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+}
+
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.inputFields > input{
+    width: 30vw;
+    margin-top: 1rem;
+}
+
+.btn{
+    margin: 1rem;
+}
+
+.hero{
+    border: 5px solid rgb(191, 191, 253);
+    border-radius: 50px;
+    width: 30vw;
+    box-shadow:aquamarine;
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(9, 9, 88);
+    color: rgb(191, 191, 253);
+}
+
+.hero > div {
+    margin: 1rem;
+    text-align: center;
+
+}
